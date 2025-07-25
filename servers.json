@@ -1,0 +1,81 @@
+{
+  "updated": "2025-07-25T10:00:00Z",
+  "version": "1.0",
+  "servers": [
+    {
+      "id": "vpnbook_us1",
+      "name": "VPNBook US East",
+      "country": "United States",
+      "city": "New York",
+      "flag": "🇺🇸",
+      "protocols": [
+        {
+          "type": "openvpn",
+          "host": "us1.vpnbook.com",
+          "port": 80,
+          "protocol": "tcp",
+          "username": "vpnbook",
+          "password": "7c7w6qk",
+          "ca_cert": "-----BEGIN CERTIFICATE-----\nMIIE3DCCA8SgAwIBAgIJAMZmwFdVx...\n-----END CERTIFICATE-----"
+        }
+      ],
+      "load": 45,
+      "ping": 120,
+      "uptime": 99.8,
+      "bandwidth": "100 Mbps"
+    },
+    {
+      "id": "vpngate_jp1", 
+      "name": "VPN Gate Japan",
+      "country": "Japan",
+      "city": "Tokyo",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "220.100.xxx.xxx",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "220.100.xxx.xxx",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn", 
+          "password": "vpn"
+        }
+      ],
+      "load": 23,
+      "ping": 45,
+      "uptime": 95.2,
+      "bandwidth": "50 Mbps"
+    },
+    {
+      "id": "custom_de1",
+      "name": "Germany Frankfurt",
+      "country": "Germany",
+      "city": "Frankfurt",
+      "flag": "🇩🇪",
+      "protocols": [
+        {
+          "type": "ikev2",
+          "host": "de1.example.com", 
+          "port": 500,
+          "username": "user123",
+          "password": "pass456"
+        }
+      ],
+      "load": 67,
+      "ping": 89,
+      "uptime": 98.1,
+      "bandwidth": "200 Mbps"
+    }
+  ],
+  "default_dns": ["1.1.1.1", "8.8.8.8"],
+  "kill_switch": true,
+  "auto_reconnect": true,
+  "connection_timeout": 30
+}
