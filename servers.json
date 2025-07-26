@@ -1,39 +1,17 @@
 {
-  "updated": "2025-07-25T10:00:00Z",
+  "updated": "2025-07-25T06:59:59Z",
   "version": "1.0",
   "servers": [
     {
-      "id": "vpnbook_us1",
-      "name": "VPNBook US East",
-      "country": "United States",
-      "city": "New York",
-      "flag": "🇺🇸",
-      "protocols": [
-        {
-          "type": "openvpn",
-          "host": "us1.vpnbook.com",
-          "port": 80,
-          "protocol": "tcp",
-          "username": "vpnbook",
-          "password": "7c7w6qk",
-          "ca_cert": "-----BEGIN CERTIFICATE-----\nMIIE3DCCA8SgAwIBAgIJAMZmwFdVx...\n-----END CERTIFICATE-----"
-        }
-      ],
-      "load": 45,
-      "ping": 120,
-      "uptime": 99.8,
-      "bandwidth": "100 Mbps"
-    },
-    {
-      "id": "vpngate_jp1", 
-      "name": "VPN Gate Japan",
+      "id": "vpngate_jp_1",
+      "name": "VPN Gate Japan public-v",
       "country": "Japan",
-      "city": "Tokyo",
+      "city": "Unknown",
       "flag": "🇯🇵",
       "protocols": [
         {
           "type": "l2tp",
-          "host": "220.100.xxx.xxx",
+          "host": "219.100.37.195",
           "port": 1701,
           "username": "vpn",
           "password": "vpn",
@@ -41,41 +19,600 @@
         },
         {
           "type": "openvpn",
-          "host": "220.100.xxx.xxx",
+          "host": "219.100.37.195",
           "port": 1194,
           "protocol": "udp",
-          "username": "vpn", 
+          "username": "vpn",
           "password": "vpn"
         }
       ],
-      "load": 23,
-      "ping": 45,
-      "uptime": 95.2,
-      "bandwidth": "50 Mbps"
+      "load": 100,
+      "ping": 14,
+      "uptime": 100,
+      "bandwidth": "1030 Mbps",
+      "operator": "VPN Gate Volunteer"
     },
     {
-      "id": "custom_de1",
-      "name": "Germany Frankfurt",
-      "country": "Germany",
-      "city": "Frankfurt",
-      "flag": "🇩🇪",
+      "id": "vpngate_jp_2",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
       "protocols": [
         {
-          "type": "ikev2",
-          "host": "de1.example.com", 
-          "port": 500,
-          "username": "user123",
-          "password": "pass456"
+          "type": "l2tp",
+          "host": "219.100.37.89",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.89",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
         }
       ],
-      "load": 67,
-      "ping": 89,
-      "uptime": 98.1,
-      "bandwidth": "200 Mbps"
+      "load": 100,
+      "ping": 27,
+      "uptime": 100,
+      "bandwidth": "632 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_3",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.179",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.179",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 10,
+      "uptime": 100,
+      "bandwidth": "1327 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_4",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.113",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.113",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 25,
+      "uptime": 100,
+      "bandwidth": "2818 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_5",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.103",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.103",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 10,
+      "uptime": 100,
+      "bandwidth": "759 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_6",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.104",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.104",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 8,
+      "uptime": 100,
+      "bandwidth": "507 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_7",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.200",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.200",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 25,
+      "uptime": 100,
+      "bandwidth": "349 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_8",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.96",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.96",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 20,
+      "uptime": 100,
+      "bandwidth": "983 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_9",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.198",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.198",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 13,
+      "uptime": 100,
+      "bandwidth": "811 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_10",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.83",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.83",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 15,
+      "uptime": 100,
+      "bandwidth": "1608 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_11",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.99",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.99",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 13,
+      "uptime": 100,
+      "bandwidth": "1124 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_12",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.216",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.216",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 9,
+      "uptime": 100,
+      "bandwidth": "458 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_13",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.85",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.85",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 22,
+      "uptime": 100,
+      "bandwidth": "745 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_us_14",
+      "name": "VPN Gate United States vpn32061",
+      "country": "United States",
+      "city": "Unknown",
+      "flag": "🇺🇸",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "104.28.222.74",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "104.28.222.74",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 24,
+      "uptime": 100,
+      "bandwidth": "49 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_15",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.1",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.1",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 25,
+      "uptime": 100,
+      "bandwidth": "1477 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_16",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.60",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.60",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 21,
+      "uptime": 100,
+      "bandwidth": "367 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_17",
+      "name": "VPN Gate Japan public-v",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "219.100.37.52",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "219.100.37.52",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 25,
+      "uptime": 100,
+      "bandwidth": "783 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_18",
+      "name": "VPN Gate Japan vpn36060",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "39.111.168.184",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "39.111.168.184",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 3,
+      "uptime": 100,
+      "bandwidth": "910 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_ca_19",
+      "name": "VPN Gate Canada vpn49924",
+      "country": "Canada",
+      "city": "Unknown",
+      "flag": "🇨🇦",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "68.149.154.94",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "68.149.154.94",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 26,
+      "uptime": 100,
+      "bandwidth": "367 Mbps",
+      "operator": "VPN Gate Volunteer"
+    },
+    {
+      "id": "vpngate_jp_20",
+      "name": "VPN Gate Japan vpn37121",
+      "country": "Japan",
+      "city": "Unknown",
+      "flag": "🇯🇵",
+      "protocols": [
+        {
+          "type": "l2tp",
+          "host": "121.103.21.26",
+          "port": 1701,
+          "username": "vpn",
+          "password": "vpn",
+          "psk": "vpn"
+        },
+        {
+          "type": "openvpn",
+          "host": "121.103.21.26",
+          "port": 1194,
+          "protocol": "udp",
+          "username": "vpn",
+          "password": "vpn"
+        }
+      ],
+      "load": 100,
+      "ping": 3,
+      "uptime": 100,
+      "bandwidth": "923 Mbps",
+      "operator": "VPN Gate Volunteer"
     }
   ],
-  "default_dns": ["1.1.1.1", "8.8.8.8"],
+  "default_dns": [
+    "1.1.1.1",
+    "8.8.8.8"
+  ],
   "kill_switch": true,
   "auto_reconnect": true,
-  "connection_timeout": 30
+  "connection_timeout": 30,
+  "notes": {
+    "vpnbook_credentials": "VPNBook credentials change regularly. Check vpnbook.com for latest passwords.",
+    "vpngate_servers": "VPN Gate servers are volunteer-operated and may have varying reliability.",
+    "crawler_info": "Data automatically crawled from VPNBook and VPN Gate websites."
+  }
 }
